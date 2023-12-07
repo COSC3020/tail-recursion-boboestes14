@@ -6,5 +6,5 @@ eval(fs.readFileSync('code.js')+'');
 
 
 for(i = 0; i < 23; i++){
-    assert(fib(i+1) == fibonacci(i))
+    jsc.assert(fib(i+1) == fibonacci(i));
 }
