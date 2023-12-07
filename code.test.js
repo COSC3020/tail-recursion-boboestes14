@@ -5,6 +5,6 @@ const assert = require('assert');
 eval(fs.readFileSync('code.js')+'');
 
 
-for(i = 0; i < 23; i++){
-    jsc.assert(fib(i+1) == fibonacci(i));
+for(i = 0; i < 28; i++){
+    jsc.assert(fib(i+1) == fibonacci(i))
 }
