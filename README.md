@@ -18,4 +18,4 @@ reasoning, to this markdown file.
 
 ## Runtime Analysis
 
-The asymptotic complexity of tail-recursive Fibonacci is the same as the non-tail-recursive version. This is because they both need to do the same amount of work to get the answer. Since they do the same amount of work just in different ways they have the same complexity. So the complexity would be $\Theta$ n.
+The asymptotic complexity of tail-recursive Fibonacci is the same as the non-tail-recursive version. This is because they both need to do the same amount of work to get the answer. Since they do the same amount of work just in different ways they have the same complexity. So the complexity would be $O$(n).
